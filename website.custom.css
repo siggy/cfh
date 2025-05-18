@@ -122,3 +122,36 @@ a.list-item-content__button.sqs-block-button-element {
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
+// partiful icon header
+
+@media only screen and (min-width:640px) {
+  .header-actions-action--social .icon--fill:nth-of-type(4) {
+    svg {
+      display:none;
+    }
+    background-image: url("https://images.squarespace-cdn.com/content/64f94ee4ffa47755c5186cab/5e4658d7-61b1-4302-8620-f5947f042db8/partiful.logo.square.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+.header-menu-actions-action:nth-of-type(4) {
+  svg {
+    display:none;
+  }
+  background-image: url("https://images.squarespace-cdn.com/content/64f94ee4ffa47755c5186cab/5e4658d7-61b1-4302-8620-f5947f042db8/partiful.logo.square.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+// partiful icon misc
+
+.sqs-svg-icon--list .sqs-svg-icon--wrapper:nth-of-type(4) {
+  svg {
+    display:none;
+  }
+  background-image: url("https://images.squarespace-cdn.com/content/64f94ee4ffa47755c5186cab/5e4658d7-61b1-4302-8620-f5947f042db8/partiful.logo.square.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
